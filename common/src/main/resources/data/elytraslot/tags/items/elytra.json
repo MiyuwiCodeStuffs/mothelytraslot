@@ -105,6 +105,10 @@
     {
       "id": "crystalmod:sapphire_elytra",
       "required": false
+    },
+    {
+      "id": "estrogen:moth_elytra",
+      "required": false
     }
   ]
 }
