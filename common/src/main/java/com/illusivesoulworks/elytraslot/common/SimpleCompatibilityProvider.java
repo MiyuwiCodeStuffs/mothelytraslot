@@ -88,6 +88,11 @@ public class SimpleCompatibilityProvider implements IElytraProvider {
             new ResourceLocation("crystalmod:textures/entity/black_tourmaline_elytra.png"));
       }
 
+      if (isLoaded.test("estrogen")) {
+        ID_TO_TEXTURE.put("estrogen:moth_elytra",
+            new ResourceLocation("estrogen:textures/entity/moth_elytra.png"));
+      }
+
       if (isLoaded.test("lilwings")) {
         Set<ResourceLocation> entityTypes = Services.PLATFORM.getEntityTypes();
 
